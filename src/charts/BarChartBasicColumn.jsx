@@ -32,7 +32,6 @@ const BarChartBasicColumn = ({ width, height }) => {
 				name: 'Đơn vị tham gia',
 				type: 'column',
 				color: 'orange',
-				// data: [340, 300, 225, 220],
 				data: [340, 300, 225, 220, 215, 205, 180, 160, 150, 140],
 			},
 		],
@@ -103,7 +102,6 @@ BarChartBasicColumn.propTypes = {
 
 BarChartBasicColumn.defaultProps = {
 	width: '50%',
-	// height: null,
 	height: 400,
 }
 

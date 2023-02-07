@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { faChartColumn } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Frame = ({ children, title, width }) => {
+const Frame = ({ title, width, children }) => {
 	return (
 		<div style={{ width: width }}>
 			<div
