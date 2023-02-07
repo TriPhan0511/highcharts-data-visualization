@@ -1,5 +1,7 @@
+import BarChartBasicColumn from './Charts/BarChartBasicColumn'
+
 function App() {
-	return <div>App</div>
+	return <BarChartBasicColumn width={'30%'} />
 }
 
 export default App
