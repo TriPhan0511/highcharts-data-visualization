@@ -2,10 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import HighCharts from 'highcharts'
 import HighchartsReact from 'highcharts-react-official'
-import Frame from '../components/Frame'
+import HighchartsFrame from './HighchartsFrame'
 
 /*
-	Notes:
+	Props Notes:
 		1.	width: number, string
 				An explicit width for the chart. If number, the width is given in pixels.
 				If given a percentage string (for example '56%'), the width is given as the percentage 
@@ -161,9 +161,9 @@ const DualAxesLineAndColumn = ({ width, height }) => {
 	}
 
 	return (
-		<Frame title='Biểu đồ lưu lượng người dùng' width={width}>
+		<HighchartsFrame title='Biểu đồ lưu lượng người dùng' width={width}>
 			<HighchartsReact highcharts={HighCharts} options={options} />
-		</Frame>
+		</HighchartsFrame>
 	)
 }
 

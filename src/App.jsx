@@ -1,10 +1,15 @@
-import BarChartBasicColumn from './Charts/BarChartBasicColumn'
-import DualAxesLineAndColumn from './charts/DualAxesLineAndColumn'
-import DualAxesLineAndColumnSample from './charts/DualAxesLineAndColumnSample'
+import BarChartBasicColumn from './components/highcharts/BarChartBasicColumn'
+import DualAxesLineAndColumn from './components/highcharts/DualAxesLineAndColumn'
+import PieChartSample from './components/highcharts/PieChartSample'
 
 function App() {
-	return <DualAxesLineAndColumn />
-	// return <DualAxesLineAndColumnSample />
+	return (
+		<>
+			<PieChartSample />
+			{/* <BarChartBasicColumn /> */}
+			{/* <DualAxesLineAndColumn /> */}
+		</>
+	)
 }
 
 export default App
